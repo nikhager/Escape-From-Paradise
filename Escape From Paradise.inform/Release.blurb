@@ -1,0 +1,37 @@
+! Blurb file created by Inform build 6G60
+
+status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise.inform"
+release to "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise Materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Escape From Paradise.zblorb"
+storyfile "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise.inform/Build/output.z8" include
+ifiction "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise.inform/Metadata.iFiction" include
+cover "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise Materials/Cover.jpg"
+picture 1 "/Users/nhager16/Desktop/My Stuffz/Skool/Computor Science/4 IF Projects/3 Escape From Paradise/Escape From Paradise Materials/Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "0A81E4A8-623B-4B26-85E1-3B9E95E166E3"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2013"
+placeholder [TITLE] = "Escape From Paradise"
+placeholder [AUTHOR] = "Nik Hager"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/Reveal.tif></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc393.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc394.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||

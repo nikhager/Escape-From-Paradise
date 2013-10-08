@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1836ed0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x942cbb0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xbb686e0" />
-  <item nodeId="node-0x1836ed0">
+  <activeNode nodeId="node-0x187648a0" />
+  <item nodeId="node-0x942cbb0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -14,8 +14,175 @@ You snatch your backpack up off the ground, sling it over your shoulders, and st
 
 Escape From Paradise
 An Interactive Fiction by Nik Hager
-Release 1 / Serial number 131003 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 131007 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
+Camp
+The camp is set up in a small clearing between four huge canopy trees for shade and shelter from rain. You notice there is a fire pit in the middle that you must have build before, but the fire has burnt out leaving a mound of ash surrounded by charred rocks.
+
+You can see a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">NO</temporary>
+    <children>
+      <child nodeId="node-0xc9f8570" />
+      <child nodeId="node-0xc9f8030" />
+      <child nodeId="node-0xc9f7d90" />
+      <child nodeId="node-0xc9f7c40" />
+      <child nodeId="node-0xc9f5940" />
+      <child nodeId="node-0xc9f5630" />
+      <child nodeId="node-0x942cee0" />
+      <child nodeId="node-0x942cc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cc20">
+    <command xml:space="preserve">stop</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0x942cc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cc70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0x942ccc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x942ccc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0x942cd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cd10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0x942cd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cd80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="75">YES</temporary>
+    <children>
+      <child nodeId="node-0x942cdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cdf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot; The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I景漠牵挠牥浥湯慩&apos;ll be in my hut; thinking of ways to open that stupid door…re w&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+
+You can see a golden door and a Chief here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="74">YES</temporary>
+  </item>
+  <item nodeId="node-0x942cee0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+
+You can see a boat and water (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0x942d060" />
+      <child nodeId="node-0x942cf80" />
+      <child nodeId="node-0x942cf30" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cf30">
+    <command xml:space="preserve">put boat in water</command>
+    <result xml:space="preserve">(first taking the boat)
+
+You put the boat into water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+  </item>
+  <item nodeId="node-0x942cf80">
+    <command xml:space="preserve">take the boat</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+    <children>
+      <child nodeId="node-0x942cff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x942cff0">
+    <command xml:space="preserve">put boat in water</command>
+    <result xml:space="preserve">That can&apos;t contain things.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="55">YES</temporary>
+  </item>
+  <item nodeId="node-0x942d060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
 Camp
 You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
 
@@ -23,18 +190,540 @@ You can see a knife, a coil of rope, and a bottle (empty) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
     <children>
-      <child nodeId="node-0x6c61360" />
-      <child nodeId="node-0x6c5fbf0" />
-      <child nodeId="node-0x6c60160" />
-      <child nodeId="node-0x6c5fec0" />
-      <child nodeId="node-0x6c5f5d0" />
-      <child nodeId="node-0x18369f0" />
+      <child nodeId="node-0xc9f4400" />
     </children>
   </item>
-  <item nodeId="node-0x18369f0">
+  <item nodeId="node-0xc9f4400">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0x942ce80" />
+    </children>
+  </item>
+  <item nodeId="node-0x942ce80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4470" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4470">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Eastern Forest
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f44e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f44e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Shadow Fang Lair
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4550" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4550">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Eastern Forest
+ 
+
+You can see water (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f45c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f45c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4630" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4630">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f46a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f46a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Camp
+You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
+
+You can see a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4340" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+
+You can see a boat here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4390" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4390">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Camp
+You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
+
+You can see a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4890" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4890">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+
+You can see water (empty) and a boat here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4900" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4900">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Camp
+You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
+
+You can see a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4970" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4970">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f49e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f49e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4a50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4ac0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4b30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Eastern Forest
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4ba0">
+    <command xml:space="preserve">take water</command>
+    <result xml:space="preserve">You don&apos;t have anything to fill with water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4c10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4c10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4c80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4cf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Camp
+You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
+
+You can see a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4710" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4710">
+    <command xml:space="preserve">take bottle</command>
+    <result xml:space="preserve">You pick up the empty bottle and put it into your backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4780" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4780">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f47f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f47f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f4fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f4fa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Eastern Forest
+ 
+
+You can see water (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5010" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5010">
+    <command xml:space="preserve">take water</command>
+    <result xml:space="preserve">You fill the bottle with cool, fresh, drinking water from the river.
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5080" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5080">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f50f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f50f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5160" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5160">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f51d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f51d0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5240" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5240">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f52b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f52b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5320" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5320">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5390" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5390">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a golden door and a Chief here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5400" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5400">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the golden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5470" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5470">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="95">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f54e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f54e0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the backpack)
+That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="94">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f5630">
     <command xml:space="preserve">x firepit</command>
     <result xml:space="preserve">You see nothing special about the fire pit.
 
@@ -43,10 +732,10 @@ You can see a knife, a coil of rope, and a bottle (empty) here.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x1836a40" />
+      <child nodeId="node-0xc9f56a0" />
     </children>
   </item>
-  <item nodeId="node-0x1836a40">
+  <item nodeId="node-0xc9f56a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Southern Forest
@@ -57,10 +746,10 @@ Huge trees and bushes surround you as far as you can see.
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x1836a90" />
+      <child nodeId="node-0xc9f4d60" />
     </children>
   </item>
-  <item nodeId="node-0x1836a90">
+  <item nodeId="node-0xc9f4d60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Camp
@@ -73,10 +762,10 @@ You can see some burnt wood, some ashes, some rocks, a knife, a coil of rope, an
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x1836ae0" />
+      <child nodeId="node-0xc9f4dd0" />
     </children>
   </item>
-  <item nodeId="node-0x1836ae0">
+  <item nodeId="node-0xc9f4dd0">
     <command xml:space="preserve">take rocks</command>
     <result xml:space="preserve">You pick up some of the rocks and put them into your backback. DANG! They&apos;re really heavy!
 
@@ -85,10 +774,10 @@ You can see some burnt wood, some ashes, some rocks, a knife, a coil of rope, an
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x1836b50" />
+      <child nodeId="node-0xc9f4e40" />
     </children>
   </item>
-  <item nodeId="node-0x1836b50">
+  <item nodeId="node-0xc9f4e40">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a backpack
@@ -99,10 +788,10 @@ You can see some burnt wood, some ashes, some rocks, a knife, a coil of rope, an
     <changed>NO</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f560" />
+      <child nodeId="node-0xc9f4eb0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f560">
+  <item nodeId="node-0xc9f4eb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Southern Forest
@@ -113,10 +802,10 @@ Huge trees and bushes surround you as far as you can see.
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f630" />
+      <child nodeId="node-0xc9f4f20" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f630">
+  <item nodeId="node-0xc9f4f20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You journey deeper into the forest. 
 Central Forest
@@ -127,10 +816,10 @@ The jungle is all you can see.
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f680" />
+      <child nodeId="node-0xc9f5710" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f680">
+  <item nodeId="node-0xc9f5710">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Western Forest
@@ -141,10 +830,10 @@ Western Forest
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f6d0" />
+      <child nodeId="node-0xc9f5780" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f6d0">
+  <item nodeId="node-0xc9f5780">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Village
@@ -155,10 +844,10 @@ Village
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f740" />
+      <child nodeId="node-0xc9f57f0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f740">
+  <item nodeId="node-0xc9f57f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Shaman&apos;s Hut
@@ -171,10 +860,10 @@ You can see a Shaman here.
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f7b0" />
+      <child nodeId="node-0xc9f5860" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f7b0">
+  <item nodeId="node-0xc9f5860">
     <command xml:space="preserve">talk to shaman</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -183,10 +872,10 @@ You can see a Shaman here.
     <changed>YES</changed>
     <temporary score="122">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f8e0" />
+      <child nodeId="node-0xc9f58d0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f8e0">
+  <item nodeId="node-0xc9f58d0">
     <command xml:space="preserve">ask shaman about penis</command>
     <result xml:space="preserve">There is no reply.
 
@@ -195,155 +884,1924 @@ You can see a Shaman here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
   </item>
-  <item nodeId="node-0x6c5f5d0">
-    <command xml:space="preserve">x fireplace</command>
-    <result xml:space="preserve">You see nothing special about the fire pit.
+  <item nodeId="node-0xc9f5940">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="98">YES</temporary>
+    <temporary score="1353">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f950" />
+      <child nodeId="node-0xc9f59b0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f950">
-    <command xml:space="preserve">x room</command>
+  <item nodeId="node-0xc9f59b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7850" />
+      <child nodeId="node-0x10ded200" />
+      <child nodeId="node-0xc9f6740" />
+      <child nodeId="node-0xc9f5a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5a20">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">Gosh Darnit
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5a90">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5b00">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">You see nothing special about the magical box.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f5b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f5b70">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open the magical box, revealing a blueprints and a map.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f6740">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f6f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f6f90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7000" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7000">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+All the walls are gone now as well as the golden door. The hidden shrine room is to the east, beyond a shimmering veil of light.
+
+You can see a Chief here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7150" />
+      <child nodeId="node-0xf757b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xf757b40">
+    <command xml:space="preserve">talk to chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+Did you find a way to open that door? No? Well, then this is a waste of my time.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1823850" />
+    </children>
+  </item>
+  <item nodeId="node-0x1823850">
+    <command xml:space="preserve">open the door</command>
+    <result xml:space="preserve">Which do you mean, the hidden door or the golden door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187b7bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187b7bb0">
+    <command xml:space="preserve">x hidden door</command>
+    <result xml:space="preserve">What are you looking for. You can&apos;t see a HIDDEN door. It&apos;s HIDDEN.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d0df70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d0df70">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the golden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15af2390" />
+    </children>
+  </item>
+  <item nodeId="node-0x15af2390">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Which do you mean, the hidden door or the golden door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x18780550" />
+    </children>
+  </item>
+  <item nodeId="node-0x18780550">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You examine the wall and see that there is an awkward stone jutting out of the wall that is slightly darker than the rest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a63b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a63b50">
+    <command xml:space="preserve">x stone</command>
+    <result xml:space="preserve">A protruding stone that is slightly darker than the rest. I wonder what would happen if you pressed it…
+
+You press the stone into the wall with a loud &quot;CLICK!&quot;. You hear the sound of old gears moving and watch as the wall shakes, and slowly parts, revealing a hidden room. This must be the shrine the Chief was looking for.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf6299a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf6299a0">
+    <command xml:space="preserve">push stone</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="98">YES</temporary>
+    <temporary score="1353">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5f9c0" />
+      <child nodeId="node-0x16967fa0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5f9c0">
-    <command xml:space="preserve">v</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x16967fa0">
+    <command xml:space="preserve">press stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="98">YES</temporary>
+    <temporary score="1353">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5fa30" />
+      <child nodeId="node-0x10d587c0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5fa30">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x10d587c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hidden Shrine Room
+You walk in through the hidden entrance and burst into a shrine room for the island&apos;s main God. The room is amazing. Its gold, intricately engraved tiles on the floor and shimmering walls, giving off a faint flickering glow, made it hard to believe the room had been lost for centuries.
+
+You can see a golden statue here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="98">YES</temporary>
+    <temporary score="1353">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5faa0" />
+      <child nodeId="node-0x18731840" />
     </children>
   </item>
-  <item nodeId="node-0x6c5faa0">
-    <command xml:space="preserve">bn</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x18731840">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. All the walls are gone now as well as the golden door. The hidden shrine room is to the east, beyond a shimmering veil of light.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="98">YES</temporary>
+    <temporary score="1353">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5fb10" />
+      <child nodeId="node-0xf633150" />
     </children>
   </item>
-  <item nodeId="node-0x6c5fb10">
-    <command xml:space="preserve">m</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c5fb80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c5fb80">
-    <command xml:space="preserve">c</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c5f820" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c5f820">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the backpack)
-The backpack is empty.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c5f870" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c5f870">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Time passes.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c5fd70" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c5fd70">
-    <command xml:space="preserve">a</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="98">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c5fde0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c5fde0">
+  <item nodeId="node-0xf633150">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
-Beach
-You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+Mountain Base
+ 
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="98">YES</temporary>
+    <temporary score="1353">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5fe50" />
+      <child nodeId="node-0x169b4fe0" />
     </children>
   </item>
-  <item nodeId="node-0x6c5fe50">
+  <item nodeId="node-0x169b4fe0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7f4970" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7f4970">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7b7570" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7b7570">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf66b3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf66b3c0">
     <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f9f520" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f9f520">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f6e920" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f6e920">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">You examine the strange rock and see that it has strange engravings on it. You rub the engravings and the rock emanates a soft golden glow. When the light fades away, the rock is gone. In its place is a magical golden box radiating with a shimmering golden aura.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187c0f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x187c0f40">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">A magical golden box radiating with a shimmering golden aura. It has the same strange engravings as the rock, but they are clearer now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x169263e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169263e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7bb6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7bb6e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. All the walls are gone now as well as the golden door. The hidden shrine room is to the east, beyond a shimmering veil of light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7a3050" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7a3050">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the golden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf75f9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf75f9c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hidden Shrine Room
+You walk in through the hidden entrance and burst into a shrine room for the island&apos;s main God. The room is amazing. Its gold, intricately engraved tiles on the floor and shimmering walls, giving off a faint flickering glow, made it hard to believe the room had been lost for centuries.
+
+You can see a golden statue here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b29f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b29f10">
+    <command xml:space="preserve">x statue</command>
+    <result xml:space="preserve">A statue of the island&apos;s main God, Master Tryn the King of Creation. It appears to have been hand carved with great skill from a single golden block of colossal proportions.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a69260" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a69260">
+    <command xml:space="preserve">talk to statue</command>
+    <result xml:space="preserve">You speak to the statue, asking the god to help you return home. You wait a few seconds and when you are certain nothing is happening, you turn around and start to leave. Suddenly, you hear a loud &quot;SNAP!&quot; and you turn around to see an eyeglass at the base of the statue.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187c6aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187c6aa0">
+    <command xml:space="preserve">take eyeglass</command>
+    <result xml:space="preserve">You pick the magic eyeglass up off the shimmering tiles and put it in the front pocket of your backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187754c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187754c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187601c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187601c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x16933670" />
+    </children>
+  </item>
+  <item nodeId="node-0x16933670">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. All the walls are gone now as well as the golden door. The hidden shrine room is to the east, beyond a shimmering veil of light.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1698cd00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1698cd00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x959f810" />
+    </children>
+  </item>
+  <item nodeId="node-0x959f810">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a magical box (in which are a blueprints and a map) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9db460" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9db460">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x169b7280" />
+    </children>
+  </item>
+  <item nodeId="node-0x169b7280">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a magical box (in which are a blueprints and a map) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a77710" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a77710">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">You take the eyeglass out the front pocket of your backpack and look through it, examining the engravings on the box. You watch as the symbols scatter around, rearranging themselves into letters and words you understand.
+
+It reads, &quot;To get to the treasures lurking inside. Look to the sky. Let the stars be your guide.&quot;
+
+Hmmm. I wonder what that means.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187aea20" />
+    </children>
+  </item>
+  <item nodeId="node-0x187aea20">
+    <command xml:space="preserve">x sky</command>
+    <result xml:space="preserve">You look up at the sky and concentrate on the star constellations. A bright blue flash fills the sky energy and a bright blue line instantly forms in the sky, connecting the dots with the stars and forming words in the sky: &quot;You already possess the key to success.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x18f58780" />
+    </children>
+  </item>
+  <item nodeId="node-0x18f58780">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a backpack
+    a magic key
+    a magic eyeglass
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf65a4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf65a4f0">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187ecf40" />
+    </children>
+  </item>
+  <item nodeId="node-0x187ecf40">
+    <command xml:space="preserve">unlock the box</command>
+    <result xml:space="preserve">(with the backpack)
+That&apos;s unlocked at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b22080" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b22080">
+    <command xml:space="preserve">unlock the box with the magic key</command>
+    <result xml:space="preserve">(first taking the magic key)
+That&apos;s unlocked at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187ae960" />
+    </children>
+  </item>
+  <item nodeId="node-0x187ae960">
+    <command xml:space="preserve">take eyeglass</command>
+    <result xml:space="preserve">You pick the magic eyeglass up off the shimmering tiles and put it in the front pocket of your backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x169d4830" />
+    </children>
+  </item>
+  <item nodeId="node-0x169d4830">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xf65b390" />
+    </children>
+  </item>
+  <item nodeId="node-0xf65b390">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a magical box (in which are a blueprints and a map) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a94c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a94c40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x169634b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169634b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Western Forest
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a42e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a42e10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Village
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187524c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187524c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Chief&apos;s Hut
+ 
+
+You can see a Chief and a Young Boy here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x15aaafd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15aaafd0">
+    <command xml:space="preserve">talk to the chief</command>
+    <result xml:space="preserve">What?!? You found the shrine room? It didn&apos;t even have anything to do with the golden door?!?!?!? Wow, what a waste of my time…
+
+Thank you for finding the room. The shrine room has been lost for centuries. The greatest thanks from me and my people for helping us.
+
+What? You need help? Talk to the statue of our God in the shrine room. He might be able to help you.
+
+I&apos;m going to go see the village Shaman to see if he can help you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0xee90bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xee90bf0">
+    <command xml:space="preserve">talk to the boy</command>
+    <result xml:space="preserve">&quot;If you&apos;re looking for daddy, he went to see the Shaman on the other side of our village.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x1871da90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1871da90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Village
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1353">YES</temporary>
+    <children>
+      <child nodeId="node-0x187648a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187648a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Shaman&apos;s Hut
+The hut of the island Shaman. The walls are lined with strange, voodoo like objects.
+
+You can see a Chief and a Shaman here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1352">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f7150">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the golden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f71c0" />
+      <child nodeId="node-0x946ee70" />
+      <child nodeId="node-0xf734110" />
+    </children>
+  </item>
+  <item nodeId="node-0xf734110">
+    <command xml:space="preserve">talk to the chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="257">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7addb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7addb0">
+    <command xml:space="preserve">x wal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="257">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7a0a40" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7a0a40">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">Upon further examination, there appears to be seven different colored tiles on the wall (blue, red, green, white, black, yellow, and brown). Maybe pressing them in a certain order will open the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="257">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7f5d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7f5d50">
+    <command xml:space="preserve">press the white tile</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="257">YES</temporary>
+    <children>
+      <child nodeId="node-0x940c250" />
+    </children>
+  </item>
+  <item nodeId="node-0x940c250">
+    <command xml:space="preserve">x white tile</command>
+    <result xml:space="preserve">You see nothing special about the white tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="256">YES</temporary>
+  </item>
+  <item nodeId="node-0x946ee70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7d4e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7d4e70">
+    <command xml:space="preserve">talk to chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x9480ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9480ee0">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You examine the wall and see that there is an awkward stone jutting out of the wall that is slightly darker than the rest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b33850" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b33850">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7dfc20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7dfc20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a wall and a golden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9c5260" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9c5260">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You see nothing special about the wall.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf75f6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf75f6f0">
+    <command xml:space="preserve">x switch</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf71f190" />
+    </children>
+  </item>
+  <item nodeId="node-0xf71f190">
+    <command xml:space="preserve">x stone</command>
+    <result xml:space="preserve">A protruding stone that is slightly darker than the rest. I wonder what would happen if you pressed it…
+
+You press the stone into the wall with a loud &quot;CLICK!&quot;. You hear the sound of old gears moving and watch as the wall shakes, and slowly parts, revealing a hidden room. This must be the shrine the Chief was looking for.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc1d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc1d70">
+    <command xml:space="preserve">press stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b8c5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b8c5f0">
+    <command xml:space="preserve">press dark stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x15acd670" />
+    </children>
+  </item>
+  <item nodeId="node-0x15acd670">
+    <command xml:space="preserve">take the stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x15a3e3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15a3e3f0">
+    <command xml:space="preserve">press the stone</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x15abaa10" />
+    </children>
+  </item>
+  <item nodeId="node-0x15abaa10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hidden Shrine Room
+You walk in through the hidden entrance and burst into a shrine room for the island&apos;s main God. The room is amazing. Its gold, intricately engraved tiles on the floor and shimmering walls, giving off a faint flickering glow, made it hard to believe the room had been lost for centuries.
+
+You can see a golden statue here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1695e740" />
+    </children>
+  </item>
+  <item nodeId="node-0x1695e740">
+    <command xml:space="preserve">x hidden door</command>
+    <result xml:space="preserve">What are you looking for. You can&apos;t see a HIDDEN door. It&apos;s HIDDEN.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xfe4bdb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xfe4bdb0">
+    <command xml:space="preserve">talk to the statue</command>
+    <result xml:space="preserve">You speak to the statue, asking the god to help you return home. You wait a few seconds and when you are certain nothing is happening, you turn around and start to leave. Suddenly, you hear a loud &quot;SNAP!&quot; and you turn around to see an eyeglass at the base of the statue.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf641570" />
+    </children>
+  </item>
+  <item nodeId="node-0xf641570">
+    <command xml:space="preserve">take eyeglass</command>
+    <result xml:space="preserve">You pick the magic eyeglass up off the shimmering tiles and put it in the front pocket of your backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf755d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf755d50">
+    <command xml:space="preserve">x eyeglass</command>
+    <result xml:space="preserve">A golden eyeglass giving off a soft magical hum. You might be able to use this to translate some kind of writing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x15aa3490" />
+    </children>
+  </item>
+  <item nodeId="node-0x15aa3490">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a golden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x16942c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x16942c50">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d1fd30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d1fd30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf652f20" />
+    </children>
+  </item>
+  <item nodeId="node-0xf652f20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1696fbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1696fbc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7cd390" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7cd390">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">You examine the strange rock and see that it has strange engravings on it. You rub the engravings and the rock emanates a soft golden glow. When the light fades away, the rock is gone. In its place is a magical golden box radiating with a shimmering golden aura.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf66c080" />
+    </children>
+  </item>
+  <item nodeId="node-0xf66c080">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">You take the eyeglass out the front pocket of your backpack and look through it, examining the engravings on the box. You watch as the symbols scatter around, rearranging themselves into letters and words you understand.
+ It reads, &quot;To get to the treasures lurking inside. Look to the sky. Let the skies be your guide.&quot;
+ Hmmm. I wonder what that means.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf75ca50" />
+    </children>
+  </item>
+  <item nodeId="node-0xf75ca50">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf74c990" />
+    </children>
+  </item>
+  <item nodeId="node-0xf74c990">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a backpack
+    a magic eyeglass
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7419f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7419f0">
+    <command xml:space="preserve">x box</command>
+    <result xml:space="preserve">You take the eyeglass out the front pocket of your backpack and look through it, examining the engravings on the box. You watch as the symbols scatter around, rearranging themselves into letters and words you understand.
+ It reads, &quot;To get to the treasures lurking inside. Look to the sky. Let the skies be your guide.&quot;
+ Hmmm. I wonder what that means.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0xf747300" />
+    </children>
+  </item>
+  <item nodeId="node-0xf747300">
+    <command xml:space="preserve">x sky</command>
+    <result xml:space="preserve">You look up at the sky and concentrate on the star constellations. A bright blue flash fills the sky energy and a bright blue line instantly forms in the sky, connecting the dots with the stars and forming words in the sky. &quot;You already possess the key to success&quot;.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1692c080" />
+    </children>
+  </item>
+  <item nodeId="node-0x1692c080">
+    <command xml:space="preserve">x the sky</command>
+    <result xml:space="preserve">You look up at the sky and gaze at the stars. The beautiful constellations are extremely beautiful here as the sky is clean and clear.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x15af87f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x15af87f0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a backpack
+    a magic key
+    a magic eyeglass
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x15aa0910" />
+    </children>
+  </item>
+  <item nodeId="node-0x15aa0910">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x1699aa40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1699aa40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+You can see a magical box (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x94d5c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x94d5c00">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x18761d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x18761d30">
+    <command xml:space="preserve">unlock the box</command>
+    <result xml:space="preserve">(with the backpack)
+That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="839">YES</temporary>
+    <children>
+      <child nodeId="node-0x187d0ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x187d0ba0">
+    <command xml:space="preserve">unlock the box with the magic key</command>
+    <result xml:space="preserve">(first taking the magic key)
+You don&apos;t have anything to unlock the box with.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="838">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f71c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x94cb460" />
+    </children>
+  </item>
+  <item nodeId="node-0x94cb460">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x183e9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x183e9e0">
+    <command xml:space="preserve">talk to the chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x950b1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x950b1b0">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">Upon further examination, there appears to be seven different colored tiles on the wall (blue, red, green, white, black, yellow, and brown). Maybe pressing them in a certain order will open the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x94bc380" />
+    </children>
+  </item>
+  <item nodeId="node-0x94bc380">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b06b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b06b30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a wall (on which are a brown tile, a yellow tile, a black tile, a white tile, a green tile, a red tile, and a blue tile) and a golden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c3550" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c3550">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7a64a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7a64a0">
+    <command xml:space="preserve">press white tile</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x94086e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x94086e0">
+    <command xml:space="preserve">press the white tile</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0xf78cae0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf78cae0">
+    <command xml:space="preserve">press onto the white tile</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7b81f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7b81f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d37150" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d37150">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x946a600" />
+    </children>
+  </item>
+  <item nodeId="node-0x946a600">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0xf78e890" />
+    </children>
+  </item>
+  <item nodeId="node-0xf78e890">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x956abc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x956abc0">
+    <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Camp
 You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
 
-You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bottle (empty) here.
+You can see a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x9589b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9589b30">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">You know what they say. Don&apos;t cheat the game, cheat the player. I think that was the saying…
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d40e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d40e30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+Huge trees and bushes surround you as far as you can see.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d008a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d008a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest. 
+Central Forest
+The jungle is all you can see.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x94b9d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x94b9d20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x94629c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x94629c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0x95a40b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x95a40b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a wall (on which are a brown tile, a yellow tile, a black tile, a white tile, a green tile, a red tile, and a blue tile) and a golden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
+    <children>
+      <child nodeId="node-0xf65dc90" />
+    </children>
+  </item>
+  <item nodeId="node-0xf65dc90">
+    <command xml:space="preserve">press white tile</command>
+    <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="235">YES</temporary>
+  </item>
+  <item nodeId="node-0x10ded200">
+    <command xml:space="preserve">nn</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x95ed510" />
+    </children>
+  </item>
+  <item nodeId="node-0x95ed510">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0xf7b1680" />
+    </children>
+  </item>
+  <item nodeId="node-0xf7b1680">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0xf627260" />
+    </children>
+  </item>
+  <item nodeId="node-0xf627260">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a Chief and a golden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x10db53c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10db53c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the golden door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f7850">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="97">YES</temporary>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f78c0" />
+    </children>
   </item>
-  <item nodeId="node-0x6c5fec0">
+  <item nodeId="node-0xc9f78c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7930" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7930">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f79a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f79a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7a10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a golden door and a Chief here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7a80">
+    <command xml:space="preserve">talk to the chief]</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7af0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7af0">
+    <command xml:space="preserve">talk to the chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home dontand&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I￿￿&apos;ll be in my hut; thinking of ways to open that stupid door…re&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7b60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+ 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="124">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7bd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
+
+You can see a golden door and a wall (on which are a blue tile, a red tile, a green tile, a white tile, a black tile, a yellow tile, and a brown tile) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="123">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f7c40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a backpack holding
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7cb0">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You pick up the knife and put it in the front pocket of your backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="58">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f7d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f7d20">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a backpack holding
+    a knife
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f7d90">
     <command xml:space="preserve">take knife</command>
     <result xml:space="preserve">You pick up the knife and put it in the front pocket of your backpack.
 
@@ -352,10 +2810,10 @@ You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bott
     <changed>NO</changed>
     <temporary score="74">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5ff30" />
+      <child nodeId="node-0xc9f7e00" />
     </children>
   </item>
-  <item nodeId="node-0x6c5ff30">
+  <item nodeId="node-0xc9f7e00">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a backpack
@@ -366,10 +2824,10 @@ You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bott
     <changed>NO</changed>
     <temporary score="74">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5ffa0" />
+      <child nodeId="node-0xc9f7e70" />
     </children>
   </item>
-  <item nodeId="node-0x6c5ffa0">
+  <item nodeId="node-0xc9f7e70">
     <command xml:space="preserve">take rope</command>
     <result xml:space="preserve">You roll up the rope and put it into your backpack.
 
@@ -378,10 +2836,10 @@ You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bott
     <changed>NO</changed>
     <temporary score="74">YES</temporary>
     <children>
-      <child nodeId="node-0x6c60010" />
+      <child nodeId="node-0xc9f7ee0" />
     </children>
   </item>
-  <item nodeId="node-0x6c60010">
+  <item nodeId="node-0xc9f7ee0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a backpack
@@ -393,10 +2851,10 @@ You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bott
     <changed>NO</changed>
     <temporary score="74">YES</temporary>
     <children>
-      <child nodeId="node-0x6c60080" />
+      <child nodeId="node-0xc9f7f50" />
     </children>
   </item>
-  <item nodeId="node-0x6c60080">
+  <item nodeId="node-0xc9f7f50">
     <command xml:space="preserve">take bottle</command>
     <result xml:space="preserve">You pick up the empty bottle and put it into your backpack.
 
@@ -405,10 +2863,10 @@ You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bott
     <changed>YES</changed>
     <temporary score="74">YES</temporary>
     <children>
-      <child nodeId="node-0x6c600f0" />
+      <child nodeId="node-0xc9f7fc0" />
     </children>
   </item>
-  <item nodeId="node-0x6c600f0">
+  <item nodeId="node-0xc9f7fc0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a backpack
@@ -421,30 +2879,167 @@ You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bott
     <changed>YES</changed>
     <temporary score="73">YES</temporary>
   </item>
-  <item nodeId="node-0x6c60160">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-South Forest
+  <item nodeId="node-0xc9f8030">
+    <command xml:space="preserve">x fireplace</command>
+    <result xml:space="preserve">You see nothing special about the fire pit.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x6c601d0" />
+      <child nodeId="node-0xc9f80a0" />
     </children>
   </item>
-  <item nodeId="node-0x6c601d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Central Forest
+  <item nodeId="node-0xc9f80a0">
+    <command xml:space="preserve">x room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8110" />
+    </children>
   </item>
-  <item nodeId="node-0x6c5fbf0">
+  <item nodeId="node-0xc9f8110">
+    <command xml:space="preserve">v</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8180" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f8180">
+    <command xml:space="preserve">b</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f81f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f81f0">
+    <command xml:space="preserve">bn</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8260" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f8260">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f82d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f82d0">
+    <command xml:space="preserve">c</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8340" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f8340">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the backpack)
+The backpack is empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f83b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f83b0">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8420" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f8420">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8490" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f8490">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="98">YES</temporary>
+    <children>
+      <child nodeId="node-0xc9f8500" />
+    </children>
+  </item>
+  <item nodeId="node-0xc9f8500">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Camp
+You are in a small clearing between four huge canopy trees. You notice you have built a fire pit, but the fire has burnt out leaving a mound of ash surrounded by rocks.
+
+You can see a burnt wood, an ashes, a rocks, a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="97">YES</temporary>
+  </item>
+  <item nodeId="node-0xc9f8570">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="246">YES</temporary>
+    <children>
+      <child nodeId="node-0x9569800" />
+    </children>
+  </item>
+  <item nodeId="node-0x9569800">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Southern Forest
@@ -452,13 +3047,13 @@ Huge trees and bushes surround you as far as you can see.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c5fc60" />
+      <child nodeId="node-0x95cf490" />
     </children>
   </item>
-  <item nodeId="node-0x6c5fc60">
+  <item nodeId="node-0x95cf490">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You journey deeper into the forest. 
 Central Forest
@@ -468,392 +3063,13 @@ You can see a strange rock here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c611a0" />
-      <child nodeId="node-0x6c60f00" />
-      <child nodeId="node-0x6c60870" />
-      <child nodeId="node-0x6c5fcd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c5fcd0">
-    <command xml:space="preserve">x rock</command>
-    <result xml:space="preserve">Gosh Darnit
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="53">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60480" />
-      <child nodeId="node-0x6c60720" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60720">
-    <command xml:space="preserve">x rock</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="53">YES</temporary>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c60790" />
+      <child nodeId="node-0x10d39440" />
     </children>
   </item>
-  <item nodeId="node-0x6c60790">
-    <command xml:space="preserve">x box</command>
-    <result xml:space="preserve">You see nothing special about the magical box.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="53">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60800" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60800">
-    <command xml:space="preserve">open box</command>
-    <result xml:space="preserve">You open the magical box, revealing a blueprints and a map.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="52">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c60480">
-    <command xml:space="preserve">x strange rock</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c604f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c604f0">
-    <command xml:space="preserve"> i</command>
-    <result xml:space="preserve">You are carrying:
-  a backpack
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60560" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60560">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Southern Forest
-Huge trees and bushes surround you as far as you can see.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c605d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c605d0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You journey deeper into the forest. 
-Central Forest
-The jungle is all you can see.
-
-You can see a magical box (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60640" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60640">
-    <command xml:space="preserve">open box</command>
-    <result xml:space="preserve">You open the magical box.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c606b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c606b0">
-    <command xml:space="preserve">x box</command>
-    <result xml:space="preserve">The magical box is empty.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c60870">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Eastern Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c608e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c608e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Shadow Fang Lair
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60950" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60950">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Eastern Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c609c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c609c0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Central Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60a30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Western Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60aa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60aa0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Village
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60b10" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60b10">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Shaman&apos;s Hut
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60b80" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60b80">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Village
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60240" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60240">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Chief&apos;s Hut
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c602b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c602b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60320" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60320">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Village
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60390" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60390">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Western Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60400" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60400">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Central Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60bf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60bf0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Northern Forest
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60c60" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60c60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Mountain Base
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60cd0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Mountain Summit Shrine
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60d40">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60db0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60db0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hidden Shrine Room
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60e20" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60e20">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Mountain Summit Shrine
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c60e90" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c60e90">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hidden Shrine Room
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="45">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c60f00">
+  <item nodeId="node-0x10d39440">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Northern Forest
@@ -861,13 +3077,13 @@ You walk out of the trees and into a small clearing. There is a large rock here 
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c60f70" />
+      <child nodeId="node-0xf788f60" />
     </children>
   </item>
-  <item nodeId="node-0x6c60f70">
+  <item nodeId="node-0xf788f60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Mountain Base
@@ -875,198 +3091,82 @@ Mountain Base
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c60fe0" />
+      <child nodeId="node-0x10dbad00" />
     </children>
   </item>
-  <item nodeId="node-0x6c60fe0">
+  <item nodeId="node-0x10dbad00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Mountain Summit Shrine
- 
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
 
-You can see a golden door and a Chief here.
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
 
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c61050" />
-      <child nodeId="node-0x1b33e70" />
-      <child nodeId="node-0x7688e20" />
-    </children>
-  </item>
-  <item nodeId="node-0x7688e20">
-    <command xml:space="preserve">talk to chief</command>
-    <result xml:space="preserve"> 
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="12">YES</temporary>
-  </item>
-  <item nodeId="node-0x1b33e70">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Mountain Base
- 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="27">YES</temporary>
-    <children>
-      <child nodeId="node-0xbb686e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xbb686e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Mountain Summit Shrine
- 
-
-You can see a golden door and a Chief here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c61050">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the golden door)
-It seems to be locked.
+You can see a Chief and a golden door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c610c0" />
+      <child nodeId="node-0xf7b2120" />
     </children>
   </item>
-  <item nodeId="node-0x6c610c0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.
+  <item nodeId="node-0xf7b2120">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c61130" />
+      <child nodeId="node-0x10db63d0" />
     </children>
   </item>
-  <item nodeId="node-0x6c61130">
-    <command xml:space="preserve">take chief</command>
-    <result xml:space="preserve">I don&apos;t suppose the Chief would care for that.
+  <item nodeId="node-0x10db63d0">
+    <command xml:space="preserve">talk to the chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c611a0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Western Forest
- 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="25">YES</temporary>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c61210" />
+      <child nodeId="node-0xf7e2cb0" />
     </children>
   </item>
-  <item nodeId="node-0x6c61210">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Village
- 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c61280" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c61280">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Chief&apos;s Hut
- 
-
-You can see a Young Boy here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="25">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c612f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c612f0">
-    <command xml:space="preserve">talk to the young boy</command>
-    <result xml:space="preserve">You walk up to the Young boy and say hi.
-
-
-&quot;Hey!&quot; he replies. &quot;I&apos;ve never seen you here before. You must be looking for my dad. He&apos;s the chief of our tribe. I guess that makes him the chief of the island too &quot;cause we&apos;re the only tribe left. Ha! Anyways, he went up to the Mountain Shrine. He heard some people talking about a lost portion of the shrine that has been forgotten for hundreds of years so he went up there to look for it. You should go talk to him, just walk up the mountain north of the forest. It&apos;s not that far from here.&quot;
-
-&quot;Thanks,&quot; you reply.
-
-&quot;No problem,&quot; says the Cheif&apos;s son, &quot;Good luck finding him!&quot;
-
-You walk out of the hut, closing the door behind you.
-
-Village
- 
+  <item nodeId="node-0xf7e2cb0">
+    <command xml:space="preserve">x wall</command>
+    <result xml:space="preserve">Upon further examination, there appears to be seven different colored tiles on the wall (blue, red, green, white, black, yellow, and brown). Maybe pressing them in a certain order will open the door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="24">YES</temporary>
-  </item>
-  <item nodeId="node-0x6c61360">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a backpack holding
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="58">YES</temporary>
+    <temporary score="246">YES</temporary>
     <children>
-      <child nodeId="node-0x6c613d0" />
+      <child nodeId="node-0x10d9a840" />
     </children>
   </item>
-  <item nodeId="node-0x6c613d0">
-    <command xml:space="preserve">take knife</command>
-    <result xml:space="preserve">You pick up the knife and put it in the front pocket of your backpack.
+  <item nodeId="node-0x10d9a840">
+    <command xml:space="preserve">press white tile</command>
+    <result xml:space="preserve">Nothing obvious happens.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="58">YES</temporary>
-    <children>
-      <child nodeId="node-0x6c61440" />
-    </children>
-  </item>
-  <item nodeId="node-0x6c61440">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a backpack holding
-    a knife
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="57">YES</temporary>
+    <temporary score="245">YES</temporary>
   </item>
 </Skein>
