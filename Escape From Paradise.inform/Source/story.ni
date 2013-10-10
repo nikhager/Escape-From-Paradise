@@ -1,12 +1,16 @@
 "Escape From Paradise" by Nik Hager
 
+the story headline is "Can you find your way back home?".
+the story genre is "Adventure".
+the story creation year is 2013.
 release along with cover art.
-
 
 When play begins:
 	 say "You wake up tired and groggy in the middle of a forest. You sleepily scan your surroundings and notice that they are unfamiliar and you have no idea how you got here. You try hard to remember how you got here, but you just can't seem to find the memory. In fact, you can't find any of your memories…
 	
-You snatch your backpack up off the ground, sling it over your shoulders, and start your quest to explore the island in hope of discovering who you are, how you got here, and how you're going to get home."
+You snatch your backpack up off the ground, sling it over your shoulders, and start your quest to explore the island in hope of discovering who you are, how you got here, and how you're going to get home.
+
+(hint - Press L to examine your surroundings again. Items, objects, or scenery may have magically appeared while you have been observing the room."
 
 
 
@@ -112,7 +116,6 @@ instead of doing something when a secret switch is the second noun and the secon
 
 
 
-
 Chapter Two [Actions]
 
 understand "talk to [someone]" as talking to.
@@ -124,9 +127,11 @@ putting is an action applying to two things.
 understand "press [something]" as pressing.
 pressing is an action applying to one thing.
 
+understand "build [something]" as building.
+building is an action applying to one thing.
 
-
-
+understand "fill [something]" as filling.
+filling is an action applying to one thing.
 
 
 
@@ -135,13 +140,18 @@ Chapter Three [Endings]
 
 [Victories]
 
-Instead of putting the boat in the water:
-	say "You push the raft into the water and watch it as it floats, bobbing in the cool ocean. You turn around and take one last look at the island before you [if boat is not enchanted]sail away, watching the island until it disappears over the horizon.[end if][if boat is enchanted]close your eyes and say, 'I wish I was back home!'
-	You feel a strong whipping wind swirl around you, causing the raft to jolt around viciously. You feel yourself lifting into the air and slowly losing consciousness before you black out completely.
-	When you shake off the dizziness and open your eyes, you are laying on your bed at home staring up at the ceiling. All your memories are coming back now. You remember that your name is James Palazo, you are 24 years old, you live in Boston Massachusetts, and seeing as the time is 4:00PM, you're late for the Red Sox game! And you're probably gonna have to move that raft out of your bedroom…[end if]";
-	if the boat is enchanted:
+Instead of putting the raft in the water:
+	if the water is in the Eastern Forest:
+		say "You push the raft into the water and watch it as it floats, bobbing in the river. You turn around and take one last look at the forest before you [if raft is not enchanted]sail away down the river and out into the ocean, watching the island until it disappears over the horizon.[end if][if raft is enchanted]close your eyes and say, 'I wish I was back home!'
+		You feel a strong whipping wind swirl around you, causing the raft to jolt around viciously. You feel yourself lifting into the air and slowly losing consciousness before you black out completely.
+		When you shake off the dizziness and open your eyes, you are laying on your bed at home staring up at the ceiling. All your memories are coming back now. You remember that your name is James Palazo, you are 24 years old, you live in Boston Massachusetts, and seeing as the time is 4:00 PM, you're late for the Red Sox game! And you're gonna have to move that raft out of your bedroom later…[end if]";
+	else:
+		say "You push the raft into the water and watch it as it floats, bobbing in the cool ocean. You turn around and take one last look at the island before you [if raft is not enchanted]sail away, watching the island until it disappears over the horizon.[end if][if raft is enchanted]close your eyes and say, 'I wish I was back home!'
+		You feel a strong whipping wind swirl around you, causing the raft to jolt around viciously. You feel yourself lifting into the air and slowly losing consciousness before you black out completely.
+		When you shake off the dizziness and open your eyes, you are laying on your bed at home staring up at the ceiling. All your memories are coming back now. You remember that your name is James Palazo, you are 24 years old, you live in Boston Massachusetts, and seeing as the time is 4:00 PM, you're late for the Red Sox game! And you're gonna have to move that raft out of your bedroom later…[end if]";
+	if the raft is enchanted:
 		increase the score by 10;
-	if the boat is not enchanted:
+	if the raft is not enchanted:
 		increase the score by 8;
 	end the game in victory.
 
@@ -199,6 +209,12 @@ The backpack is an object. The backpack is a container. The player is carrying t
 
 
 
+The tent is an object. The tent is in the Camp. The description of the tent is "A normal camping tent. It is made out of a material that is strong, yet thin."
+
+instead of taking the tent:
+	say "You fold up the tent and put it into your backpack. Wow this bag is big!";
+	now the tent is in the backpack.
+
 The knife is an object. The knife is in the Camp. The description of the knife is "A normal metal knife for cutting things."
 
 understand "blade", "dagger", "shank", "nife", "kife", "knif", "knive", "dag" as the knife.
@@ -250,7 +266,17 @@ instead of taking burnt wood:
 	say "Why would you want to take burnt wood when you are surrounded by thousands of healthy trees? Go find some wood somewhere else.";
 	stop the action.
 
+the sail material is a an object.
 
+instead of cutting the tent:
+	if the knife is in the backpack:
+		if the blueprints are in the backpack:
+			say "You take out the knife and cut out a large sail-shaped piece of fabric out of the tent's strong, yet thin material. This will work well as a sail.";
+			now the sail material is in the backpack;
+		else:
+			say "Why would you want to waste this perfectly good tent? What has it ever done to you?";
+	else:
+		say "Even if you did want to cut the tent, you have nothing to cut it with.".
 
 
 
@@ -271,9 +297,12 @@ The Beach is a room. The Beach is south of the Camp. The description of the Beac
 
 
 
-The boat is an object.
+The raft is an object.
+understand "boat", "canoe", "kayak", "dingy" as the raft.
 
 water is an object. water is in the beach. water is a container.
+
+understand "ocean", "river", "stream", "lake", "pond", "sea", "shore", "waves", "wave", "cove", "beach" as water.
 
 every turn:
 	if the player is in the beach:
@@ -339,10 +368,12 @@ The Cove is a room. The Cove is east of the Camp. The description of the Cove is
 Chapter Four [The Forest]
 
 [The Southern Forest]
-The Southern Forest is a room. The Southern Forest is north of the camp. The description of the Southern Forest is "Huge trees and bushes surround you as far as you can see."
+The Southern Forest is a room. The Southern Forest is north of the camp. The description of the Southern Forest is "All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. You can see your camp is to the south."
 
 Before going north in the Southern Forest:
-	say "You journey deeper into the forest. ";
+	say "You journey deeper into the forest. 
+	
+	";
 	Continue the action.
 
 
@@ -360,7 +391,13 @@ Before going north in the Southern Forest:
 
 [The Central Forest]
 
-The Central Forest is a room. The Central Forest is north of the Southern Forest. The description of the Central Forest is "The jungle is all you can see."
+Before going north in the Central Forest:
+	say "You journey deeper into the forest. 
+	
+	";
+	Continue the action.
+	
+The Central Forest is a room. The Central Forest is north of the Southern Forest. The description of the Central Forest is "Huge trees and bushes surround you as far as you can see. The forest surrounds you."
 
 
 
@@ -463,38 +500,140 @@ Instead of examining the strange rock:
 
 The magical box is an object. The magical box is fixed in place. The magical box is an openable container. The magical box is closed. The magical box is lockable and locked. The magical box can be either read or not read. The magical box is not read.
 
-Every turn:
-	if the magic eyeglass is in the backpack:
-		now the magical box is unlocked;
-		now the magical box is open.
-
-Instead of examining the magical box:
-	if the magic eyeglass is in the backpack:
-		say "You take the eyeglass out the front pocket of your backpack and look through it, examining the engravings on the box. You watch as the symbols scatter around, rearranging themselves into letters and words you understand. 
+the engravings are scenery in the Northern Forest.
+instead of examining the engravings:
+	if the Magical Box is open:
+		say "The engravings disappeared when you solved the riddle.";
+	if the Strange Rock is in the Northern Forest:
+		say "The engravings are not clear enough to read.";
+	if the Magical Box is locked:
+		if the magic eyeglass is in the backpack:
+			say "You take the eyeglass out the front pocket of your backpack and look through it, examining the engravings on the box. You watch as the symbols scatter around, rearranging themselves into letters and words you understand. 
 		
 It reads, 'To get to the treasures lurking inside. Look to the sky. Let the stars be your guide.'
 		
 Hmmm. I wonder what that means.";
-		now the magical box is read;
-	else:
-		say "A magical golden box radiating with a shimmering golden aura. It has the same strange engravings as the rock, but they are clearer now.".
+			now the magical box is read;
+		else:
+			say "The engravings are clearer now, but they are written in another language that you cannot understand.".
+
+
+Every turn:
+	if the magic key is in the backpack:
+		now the magical box is unlocked;
+		now the magical box is open.
+
+Instead of examining the magical box:
+	if the magical box is locked:
+		if the magic eyeglass is in the backpack:
+			say "You take the eyeglass out the front pocket of your backpack and look through it, examining the engravings on the box. You watch as the symbols scatter around, rearranging themselves into letters and words you understand. 
+		
+It reads, 'To get to the treasures lurking inside. Look to the sky. Let the stars be your guide.'
+		
+Hmmm. I wonder what that means.";
+			now the magical box is read;
+		else:
+			say "A magical golden box radiating with a shimmering golden aura. It has the same strange engravings as the rock, but they are clearer now.";
+	if the magical box is unlocked:
+		say "The box is already unlocked and open. In the box are blueprints and a map.".
 
 Understand "box", "gold", "golden box", "magic box", "magic gold", "new box", "magic rock" as the magical box.
 
 
 
-The blueprints are an object in the magical box.
+some blueprints are an object in the magical box. 
 
-Instead of taking the blueprints:
+
+the tree trunk is a thing.
+instead of taking the tree trunk:
+	if the tree trunk is in the Central Forest:
+		say "You try to lift the tree trunk with no result, so you roll the trunk through the forest to your camp.";
+		now the tree trunk is in the camp;
+		now the player is in the camp;
+	if the tree trunk is in the Camp:
+		say "You try to lift the tree trunk, but it doesn't budge.".
+
+some branches is a thing.
+understand "twig", "twigs", "branch", "stick", "sticks" as some branches.
+instead of taking some branches:
+	say "You pick up the branches off of the forest floor and put them in your backpack.";
+	now some branches are in the backpack.
+
+
+
+
+Instead of taking some blueprints:
 	say "You roll up the blueprints and put them in your backpack.";
-	now the blueprints are in the backpack.
+	now some blueprints are in the backpack.
+
+instead of examining the blueprints:
+	say "The blueprints seem to be plans for building a raft. It says that once you collect all the materials for building the raft (a large tree trunk, some rope, some sticks, and some material to make a sail out of), you just have to say the magic words 'build raft' and the magic of the island will build your raft.";
+	now the tree trunk is in the Central Forest;
+	now some branches are in the Northern Forest.
 	
+Instead of building the raft:
+	if the branches is in the backpack:
+		if the tree trunk is in the backpack:
+			if some rope is in the backpack:
+				if the sail material is in the backpack:
+					if the player is in the Camp:
+						say "You close your eyes and say, 'Build me a raft!'
+		Suddenly, the whiz of magic swirls around you once again and you watch as the materials float out of your bag and practically assemble themselves. Soon enough, there is a beautifully crafted raft sitting on the ground in front of you.";
+						now the raft is in the Camp;
+					else:
+						say "You wouldn't want it to get lost in the forest. You'd better build it in your camp. That way it's closer to the water so you don't have to carry it as far.";
+				else:
+					say "You don't have the materials to build a raft yet.";
+			else:
+				say "You don't have the materials to build a raft yet.";
+		else:
+			say "You don't have the materials to build a raft yet.";
+	else:
+		say "You don't have the materials to build a raft yet.".
 
-The map is a thing in the magical box.
 
+[the map]
+
+The map is a thing in the magical box. 
+Instead of examining the map for the first time:
+	say "A detailed map of the island… a little too detailed to have been made by human hands…";
+
+
+instead of examining the map at least twice:
+	if the player is in the Camp:
+		say "The forest is to the north, the cove is to the east, and the beach is to the south.";
+	if the player is in the Beach:
+		say "The camp is to the north.";
+	if the player is in the Southern forest:
+		say "The camp is to the south, the mountain is to the north.";
+	if the player is in the central forest:
+		say "The camp is to the south, the village is to the west, the mountain is to the north, the river is to the east.";
+	if the player is in the Western Forest:
+		say "The village is to the west, the river is to the east.";
+	if the player is in the eastern forest:
+		say "The village is to the west, the Shadow Fang Lair is over the river to the east.";
+	if the player is in the northern forest:
+		say "The camp is to the south, the mountain is to the north.";
+	if the player is in the Mountain Base:
+		say "The forest is to the south, the camp is past the forest to the south, the mountain summit shrine is up the mountain to the north.";
+	if the player is in the Mountain Summit Shrine:
+		say "The forest is to the south, the camp is past the forest to the south.";
+	if the player is in the Hidden Shrine Room:
+		say "The map is blank and unreadable. The magical presence in here must be disturbing the magic in the map.";
+	if the player is in the Shadow Fang Lair:
+		say "You wouldn't want to stop and check your map here. You might get eaten.";
+	if the player is in the Village:
+		say "The forest is to the east, the river is to the east past the forest.";
+	if the player is in the Chief's Hut:
+		say "Go outside to check the map.";
+	if the player is in the Shaman's Hut:
+		say "Go outside to check the map.".
+		
+	
 instead of taking the map:
 	say "You fold up the map and put it into your backpack.";
 	now the map is in the backpack.
+
 
 
 
@@ -642,7 +781,7 @@ He is muttering to himself, 'Stupid door, why won't you open? The Shaman said to
 	
 The Chief is a person. The Chief is in the Mountain Summit Shrine.
 
-Instead of talking to the Chief:
+Instead of talking to the Chief for the first time:
 	if the chief is in the Mountain Summit Shrine:
 		say "The man hears your footsteps and turns around red and irritated. 
 	
@@ -656,7 +795,12 @@ You explain your situation to the Chief while he nods understandingly.
 The Chief then walks briskly past you and dissapears down the mountain path.";
 		move the Chief to the Chief's Hut;
 		now the wall is in the Mountain Summit Shrine;
-		now the golden door is revealed;
+		now the golden door is revealed.
+	
+
+
+
+Instead of talking to the Chief for at least the second time:
 	if the chief is in the Chief's Hut:
 		if the wall is not in the Mountain Summit Shrine:
 			say "What?!? You found the shrine room? It didn't even have anything to do with the golden door?!?!?!? Wow, what a waste of my time…
@@ -669,7 +813,8 @@ I'm going to go see the village Shaman to see if he can help you.";
 			move the Chief to the Shaman's Hut;
 		if the wall is in the Mountain Summit Shrine:
 			say "Did you find a way to open that door? No? Well, then this is a waste of my time.".
-	
+
+
 The golden door is a secret door. The Golden Door is lockable and locked. The golden door is north of the Mountain Summit Shrine. The description of the golden door is "A massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side."
 
 The wall is an object. The wall is a supporter. The wall is fixed in place.
@@ -679,7 +824,7 @@ The dark stone is a secret switch.
 
 The hidden door is a secret door. the hidden door is east of the Mountain Summit Shrine and west of the Hidden Shrine Room.
 
-instead of examining the wall for the first time:
+instead of examining the wall:
 	say "You examine the wall and see that there is an awkward stone jutting out of the wall that is slightly darker than the rest.";
 	now the dark stone is on the wall;
 	now the dark stone is revealed.
@@ -772,7 +917,7 @@ The Hidden Shrine Room is a room. The description of the Hidden Shrine Room is "
 
 
 
-The golden statue is a person in the Hidden Shrine Room. The golden statue is fixed in place. The description of the golden statue is "A statue of the island's main God, Master Tryn the King of Creation. It appears to have been hand carved with great skill from a single golden block of colossal proportions."
+The golden statue is a person in the Hidden Shrine Room. The golden statue is fixed in place. The description of the golden statue is "A statue of the island's main God. A plaque reads Master Tryn the King of Creation. The statue appears to have been hand carved with great skill from a single golden block of colossal proportions."
 
 Instead of taking the golden statue:
 	say "Why would you want to take the statue? The mysterious islanders would kill you if they found you taking their God away from them! Assuming you could even find a way to get a 5 ton statue off of the island anyways… Find a way to get yourself off the island first."
