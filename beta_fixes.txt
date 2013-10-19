@@ -1,0 +1,36 @@
+beta test 1 - Cameron
+
+*fixed* 	fire pit ND
+*fixed* 	make player "talk to [person]" instead of "asking [person]"
+*fixed* 	hint for "talking" action at game start
+*fixed* 	"kill young boy" ND
+*fixed* 	shaman ND
+*fixed* 	sand (in beach) ND
+*fixed*		items in shaman's hut ND
+*fixed* 	make rock(s) fixed in place
+*unfixed*	don't allow taking [something] if it's in the backpack  (unable to fix)
+*fixed* 	put hint for examining dark stone in "take stone" description
+*fixed* 	don't allow "open door" command
+*fixed* 	don't allow "examine door" command
+
+
+beta test 2 - Austin
+
+*fixed* 	put 2nd hint at game start on its own line
+*fixed* 	open backpack ND
+*fixed* 	explore action ND
+*unfixed*	beach (scenery) ND     (unable to fix)
+*fixed*		sun ND
+*fixed*		chief ND
+*fixed* 	cliff ND
+*fixed* 	climbing cliff ND
+*fixed* 	capitalize the "C" in camp
+*fixed* 	hint for exits on top left of window
+*fixed* 	animals ND (for not being able to see them)
+*fixed* 	chief misspelled in young boy's dialogue
+*fixed*		make young boy only say "I've never seen you before" the first time the player speaks to him
+*fixed* 	take (magical) box ND
+*fixed* 	understand "walls" as wall
+*fixed* 	change young boy's level of speech
+*fixed* 	after talking to the young boy or the chief for the first time, say ", but strangely the language makes sense to you."
+*fixed*		fix scoring and ranking system

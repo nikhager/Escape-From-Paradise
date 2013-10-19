@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1818ab0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1b0fb10" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1818ab0" />
-  <item nodeId="node-0x1818ab0">
+  <activeNode nodeId="node-0x10f9c5c0" />
+  <item nodeId="node-0x1b0fb10">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,11 +12,18 @@ You wake up tired and groggy in the middle of a forest. You sleepily scan your s
 
 You snatch your backpack up off the ground, sling it over your shoulders, and start your quest to explore the island in hope of discovering who you are, how you got here, and how you&apos;re going to get home.
 
-(hint - Press L to examine your surroundings again. Items, objects, or scenery may have magically appeared while you have been observing the room.
+(hint - Press L to examine your surroundings again. Items, objects, or scenery may have magically appeared while you have been observing the room.)
+
+(hint - Say &quot;talk to&quot; instead of asking)
+
+(hint - Exits located in top left corner)
+
+
+
 
 Escape From Paradise
 Can you find your way back home? by Nik Hager
-Release 1 / Serial number 131009 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 131018 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Camp
 The camp is set up in a small clearing between four huge canopy trees for shade and shelter from rain. You notice there is a fire pit in the middle that you must have build before, but the fire has burnt out leaving a mound of ash surrounded by charred rocks.
@@ -26,62 +33,117 @@ You can see a tent, a knife, a coil of rope, and a bottle (empty) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">NO</temporary>
+    <temporary score="126">NO</temporary>
     <children>
-      <child nodeId="node-0x1818c50" />
-      <child nodeId="node-0x1818b40" />
-      <child nodeId="node-0x1b56f80" />
+      <child nodeId="node-0x1b0fb60" />
+      <child nodeId="node-0x6ce2d90" />
+      <child nodeId="node-0x1b1a020" />
     </children>
   </item>
-  <item nodeId="node-0x1b56f80">
-    <command xml:space="preserve">take tent</command>
-    <result xml:space="preserve">You fold up the tent and put it into your backpack. Wow this bag is big!
+  <item nodeId="node-0x1b1a020">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The trees of the forest block out the sun.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x18f9780" />
+      <child nodeId="node-0x1b9b5c0" />
     </children>
   </item>
-  <item nodeId="node-0x18f9780">
-    <command xml:space="preserve">take knife</command>
-    <result xml:space="preserve">You pick up the knife and put it in the front pocket of your backpack.
+  <item nodeId="node-0x1b9b5c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0xc1fa430" />
+      <child nodeId="node-0x1bb5540" />
     </children>
   </item>
-  <item nodeId="node-0xc1fa430">
-    <command xml:space="preserve">take rope</command>
-    <result xml:space="preserve">You roll up the rope and put it into your backpack.
+  <item nodeId="node-0x1bb5540">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The sun shines bright in the sky. You can&apos;t examine it closely though. You wouldn&apos;t want to hurt your eyes.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0xc1a61e0" />
+      <child nodeId="node-0x1b6bca0" />
     </children>
   </item>
-  <item nodeId="node-0xc1a61e0">
-    <command xml:space="preserve">take bottle</command>
-    <result xml:space="preserve">You pick up the empty bottle and put it into your backpack.
+  <item nodeId="node-0x1b6bca0">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The sun shines bright in the sky. You can&apos;t examine it closely though. You wouldn&apos;t want to hurt your eyes.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x7159e00" />
+      <child nodeId="node-0x1ba5560" />
     </children>
   </item>
-  <item nodeId="node-0x7159e00">
+  <item nodeId="node-0x1ba5560">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cddb40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cddb40">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The sun shines bright in the sky. You can&apos;t examine it closely though. You wouldn&apos;t want to hurt your eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x6ce5cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6ce5cb0">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The sun shines bright in the sky. You can&apos;t examine it closely though. You wouldn&apos;t want to hurt your eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0x6d34630" />
+    </children>
+  </item>
+  <item nodeId="node-0x6d34630">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Camp
+The camp is set up in a small clearing between four huge canopy trees for shade and shelter from rain. You notice there is a fire pit in the middle that you must have build before, but the fire has burnt out leaving a mound of ash surrounded by charred rocks.
+
+You can see a tent, a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0xd0919e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd0919e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Southern Forest
@@ -90,120 +152,300 @@ All you can see in every direction is the forest. The huge trees blocking out th
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0xbebe8e0" />
+      <child nodeId="node-0x6ca3e50" />
     </children>
   </item>
-  <item nodeId="node-0xbebe8e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You journey deeper into the forest.
- 
-Central Forest
-Huge trees and bushes surround you as far as you can see. The forest surrounds you.
+  <item nodeId="node-0x6ca3e50">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The trees of the forest block out the sun.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x71ac0f0" />
+      <child nodeId="node-0xfc80b10" />
     </children>
   </item>
-  <item nodeId="node-0x71ac0f0">
+  <item nodeId="node-0xfc80b10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest.
+ 
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0xd09b8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd09b8e0">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">The trees of the forest block out the sun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="72">YES</temporary>
+    <children>
+      <child nodeId="node-0xfc8e840" />
+    </children>
+  </item>
+  <item nodeId="node-0xfc8e840">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You journey deeper into the forest.
  
 Northern Forest
-You walk out of the trees and into a small clearing. There is a large rock here with strange engravings on it.
+You walk out of the trees and into a small clearing. All you can see in every direction is the forest. You hear the sound of small animals scurrying about around you, cracking the leaves as they run. A narrow beam of light shines through a gap in the forest canopy, illuminating a large rock here with strange engravings on it.
 
 You can see a strange rock here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="72">YES</temporary>
     <children>
-      <child nodeId="node-0x7157b50" />
+      <child nodeId="node-0xd0a6470" />
     </children>
   </item>
-  <item nodeId="node-0x7157b50">
-    <command xml:space="preserve">x rock</command>
-    <result xml:space="preserve">You examine the strange rock and see that it has strange engravings on it. You rub the engravings and the rock emanates a soft golden glow. When the light fades away, the rock is gone. In its place is a magical golden box radiating with a shimmering golden aura.
+  <item nodeId="node-0xd0a6470">
+    <command xml:space="preserve">x sun</command>
+    <result xml:space="preserve">A beam of light shines down from the sky illuminating the strange rock. You can&apos;t examine it closely though. You wouldn&apos;t want to hurt your eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="71">YES</temporary>
+  </item>
+  <item nodeId="node-0x6ce2d90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. You can see your camp is to the south.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="126">YES</temporary>
     <children>
-      <child nodeId="node-0xc193b00" />
+      <child nodeId="node-0xc88ef90" />
     </children>
   </item>
-  <item nodeId="node-0xc193b00">
-    <command xml:space="preserve">x box</command>
-    <result xml:space="preserve">A magical golden box radiating with a shimmering golden aura. It has the same strange engravings as the rock, but they are clearer now.
+  <item nodeId="node-0xc88ef90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest.
+ 
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="126">YES</temporary>
     <children>
-      <child nodeId="node-0x71a9370" />
+      <child nodeId="node-0x6c7d9e0" />
     </children>
   </item>
-  <item nodeId="node-0x71a9370">
-    <command xml:space="preserve">x engravings</command>
-    <result xml:space="preserve">The engravings are clearer now, but they are written in another language that you cannot understand.
+  <item nodeId="node-0x6c7d9e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Western Forest
+A section of the forest lacking trees and foliage. There is a village to your west, the openning back to the forest is to the east, and both the north and south exits look too densely populated with trees to navigate in.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="126">YES</temporary>
     <children>
-      <child nodeId="node-0x18cb910" />
+      <child nodeId="node-0x6d5e2e0" />
     </children>
   </item>
-  <item nodeId="node-0x18cb910">
+  <item nodeId="node-0x6d5e2e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c915e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c915e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Chief&apos;s Hut
+The Chief&apos;s hut is warm and smells like scented candles. The Chief&apos;s hunting and war trophies decorate the room and give a feeling of pride and victory to the room.
+
+You can see a young boy here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c9f090" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c9f090">
+    <command xml:space="preserve">talk to boy</command>
+    <result xml:space="preserve">You walk up to the young boy and say hi.
+
+
+&quot;Hey!&quot; he replies. &quot;I&apos;ve never seen you here before. You must be looking for my dad. He&apos;s the Chief of our tribe. I guess that makes him the Chief of the island too &quot;cause we&apos;re the only tribe left. Ha! Anyways, he went up to the Mountain Shrine. He heard some people talking about a lost portion of the shrine that has been forgotten for hundreds of years so he went up there to look for it. You should go talk to him, just walk up the mountain north of the forest. It&apos;s not that far from here.&quot;
+
+&quot;Thanks,&quot; you reply.
+
+&quot;No problem,&quot; says the Chief&apos;s son, &quot;Good luck finding him!&quot;
+
+As you walk out of the hut you realize that the boy spoke in a foreign language you are sure you&apos;ve never heard before, but strangely it makes sense to you.
+
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cf0620" />
+      <child nodeId="node-0xcb45e00" />
+    </children>
+  </item>
+  <item nodeId="node-0xcb45e00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Chief&apos;s Hut
+The Chief&apos;s hut is warm and smells like scented candles. The Chief&apos;s hunting and war trophies decorate the room and give a feeling of pride and victory to the room.
+
+You can see a young boy here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x10f9b820" />
+    </children>
+  </item>
+  <item nodeId="node-0x10f9b820">
+    <command xml:space="preserve">talk to young boy</command>
+    <result xml:space="preserve">You walk up to the young boy and say hi.
+
+
+&quot;Hey!&quot; he replies. &quot;Looking for dad? He&apos;s the Chief. He&apos;s super cool. I guess that makes him the Chief of the island too &quot;cause we&apos;re the only tribe left.
+
+He went up to the top of the mountain cuz he heard some people talking about a lost temple that&apos;s been gone for a long time so he went up there to look for it. You should go talk to him, just go north of the forest. He&apos;s up the mountain.&quot;
+
+&quot;Thanks,&quot; you reply.
+
+&quot;You&apos;re welcome,&quot; says the Chief&apos;s son, &quot;Good luck!&quot;
+
+You walk out of the hut.
+
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc01d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc01d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Western Forest
+A section of the forest lacking trees and foliage. There is a village to your west, the openning back to the forest is to the east, and both the north and south exits look too densely populated with trees to navigate in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6dfb3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6dfb3d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xc86ac20" />
+    </children>
+  </item>
+  <item nodeId="node-0xc86ac20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest.
+ 
+Northern Forest
+You walk out of the trees and into a small clearing. All you can see in every direction is the forest. You hear the sound of small animals scurrying about around you, cracking the leaves as they run. A narrow beam of light shines through a gap in the forest canopy, illuminating a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0xcb25550" />
+    </children>
+  </item>
+  <item nodeId="node-0xcb25550">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Mountain Base
- 
+The trees lead up to a stone staircase lined by statues of dragons and warriors. The staircase leads up to the top of the mountain.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="126">YES</temporary>
     <children>
-      <child nodeId="node-0x1bdc280" />
+      <child nodeId="node-0xfc633b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bdc280">
+  <item nodeId="node-0xfc633b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Mountain Summit Shrine
 You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
 
-He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to press the tiles so I pressed the tiles. You haven&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot;
-
-All the walls are gone now as well as the golden door. The hidden shrine room is to the east, beyond a shimmering veil of light.
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to rub the statues so I rubbed the statues and nothing happened. This stupid door hasn&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot; 
 
 You can see a Chief here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="126">YES</temporary>
     <children>
-      <child nodeId="node-0x71fba30" />
+      <child nodeId="node-0x10f9c5c0" />
     </children>
   </item>
-  <item nodeId="node-0x71fba30">
-    <command xml:space="preserve">talk to the chief</command>
+  <item nodeId="node-0x10f9c5c0">
+    <command xml:space="preserve">talk to chief</command>
     <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
 
 &quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
 
-You explain your situation to the Chief while he nods understandingly.
+You explain your situation to the Chief, puzzled that you understand each other, while he nods understandingly.
 
 &quot;Mmmhmmm… I see… Well, you need to find a way to get home don&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…&quot;
 
@@ -212,188 +454,706 @@ The Chief then walks briskly past you and dissapears down the mountain path.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
-    <children>
-      <child nodeId="node-0x71e0190" />
-    </children>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
   </item>
-  <item nodeId="node-0x71e0190">
-    <command xml:space="preserve">c</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x6cf0620">
+    <command xml:space="preserve">talk to boy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
     <children>
-      <child nodeId="node-0x71e8de0" />
+      <child nodeId="node-0x180bc60" />
     </children>
   </item>
-  <item nodeId="node-0x71e8de0">
-    <command xml:space="preserve">v</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x180bc60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Chief&apos;s Hut
+The Chief&apos;s hut is warm and smells like scented candles. The Chief&apos;s hunting and war trophies decorate the room and give a feeling of pride and victory to the room.
+
+You can see a young boy here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
     <children>
-      <child nodeId="node-0xc1bda10" />
+      <child nodeId="node-0x6ca9c60" />
     </children>
   </item>
-  <item nodeId="node-0xc1bda10">
-    <command xml:space="preserve">b</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x6ca9c60">
+    <command xml:space="preserve">talk to boy</command>
+    <result xml:space="preserve">You walk up to the young boy and say hi.
+
+
+&quot;Hey!&quot; he replies. &quot;You must be looking for my dad. He&apos;s the Chief of our tribe. I guess that makes him the Chief of the island too &quot;cause we&apos;re the only tribe left. Ha! Anyways, he went up to the Mountain Shrine. He heard some people talking about a lost portion of the shrine that has been forgotten for hundreds of years so he went up there to look for it. You should go talk to him, just walk up the mountain north of the forest. It&apos;s not that far from here.&quot;
+
+&quot;Thanks,&quot; you reply.
+
+&quot;No problem,&quot; says the Chief&apos;s son, &quot;Good luck finding him!&quot;
+
+You walk out of the hut.
+
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
     <children>
-      <child nodeId="node-0xc1a4180" />
+      <child nodeId="node-0x1bec9d0" />
     </children>
   </item>
-  <item nodeId="node-0xc1a4180">
+  <item nodeId="node-0x1bec9d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Chief&apos;s Hut
+The Chief&apos;s hut is warm and smells like scented candles. The Chief&apos;s hunting and war trophies decorate the room and give a feeling of pride and victory to the room.
+
+You can see a young boy here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfbf00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfbf00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xcbc65e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcbc65e0">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening the golden door)
-It seems to be locked.
+    <result xml:space="preserve">
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
     <children>
-      <child nodeId="node-0x6fd82f0" />
+      <child nodeId="node-0x6c8bf90" />
     </children>
   </item>
-  <item nodeId="node-0x6fd82f0">
-    <command xml:space="preserve">m</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
-    <children>
-      <child nodeId="node-0xc1df010" />
-    </children>
-  </item>
-  <item nodeId="node-0xc1df010">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Mountain Summit Shrine
-You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. There are walls on the east and west and a golden door to the north. The door is lined with two gold statues.
-
-You can see a wall here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
-    <children>
-      <child nodeId="node-0xc1d7b70" />
-    </children>
-  </item>
-  <item nodeId="node-0xc1d7b70">
-    <command xml:space="preserve">x wall</command>
-    <result xml:space="preserve">You examine the wall and see that there is an awkward stone jutting out of the wall that is slightly darker than the rest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
-    <children>
-      <child nodeId="node-0xc1e8830" />
-    </children>
-  </item>
-  <item nodeId="node-0xc1e8830">
-    <command xml:space="preserve">x stone</command>
-    <result xml:space="preserve">A protruding stone that is slightly darker than the rest. I wonder what would happen if you pressed it…
-
-You press the stone into the wall with a loud &quot;CLICK!&quot;. You hear the sound of old gears moving and watch as the wall shakes, and slowly parts, revealing a hidden room. This must be the shrine the Chief was looking for.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
-    <children>
-      <child nodeId="node-0xc1b7840" />
-    </children>
-  </item>
-  <item nodeId="node-0xc1b7840">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Mountain Summit Shrine
-You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. All the walls are gone now as well as the golden door. The hidden shrine room is to the east, beyond a shimmering veil of light.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="104">YES</temporary>
-    <children>
-      <child nodeId="node-0xc1e0070" />
-    </children>
-  </item>
-  <item nodeId="node-0xc1e0070">
+  <item nodeId="node-0x6c8bf90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
-Hidden Shrine Room
-You walk in through the hidden entrance and burst into a shrine room for the island&apos;s main God. The room is amazing. Its gold, intricately engraved tiles on the floor and shimmering walls, giving off a faint flickering glow, made it hard to believe the room had been lost for centuries.
+Western Forest
+A section of the forest lacking trees and foliage. There is a village to your west, the openning back to the forest is to the east, and both the north and south exits look too densely populated with trees to navigate in.
 
-You can see a golden statue here.
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b95cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b95cd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xcb49020" />
+    </children>
+  </item>
+  <item nodeId="node-0xcb49020">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. You can see your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c95510" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c95510">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Camp
+The camp is set up in a small clearing between four huge canopy trees for shade and shelter from rain. You notice there is a fire pit in the middle that you must have build before, but the fire has burnt out leaving a mound of ash surrounded by charred rocks.
+
+You can see a tent, a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0xcb4d540" />
+    </children>
+  </item>
+  <item nodeId="node-0xcb4d540">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Beach
+You head south, weaving through the trees, watching the grassy terrain of the jungle slowly fade to dirt. Soon, the dirt is gone and you can see the ocean through the remainder of the trees. You burst through the gap out of  the foliage and into the light. The sand heats your toes and sends a warm surge throughout your body. The relaxing sun shines down onto the water, causing it to shimmer with brilliance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ba36e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ba36e0">
+    <command xml:space="preserve">x ocean</command>
+    <result xml:space="preserve">The ocean is empty.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b0fb60">
+    <command xml:space="preserve">x tent</command>
+    <result xml:space="preserve">A normal camping tent. It is made out of a material that is strong, yet thin.
+
+[Your score has just gone up by one point.]
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="104">YES</temporary>
+    <temporary score="109">YES</temporary>
     <children>
-      <child nodeId="node-0x71a06e0" />
+      <child nodeId="node-0x1b10000" />
     </children>
   </item>
-  <item nodeId="node-0x71a06e0">
-    <command xml:space="preserve">x statue</command>
-    <result xml:space="preserve">A statue of the island&apos;s main God. A plaque reads Master Tryn the King of Creation. The statue appears to have been hand carved with great skill from a single golden block of colossal proportions.
+  <item nodeId="node-0x1b10000">
+    <command xml:space="preserve">x knife</command>
+    <result xml:space="preserve">A normal metal knife for cutting or stabbing things. You are unable to see your reflection in the blade as it is small and distorted.
+
+[Your score has just gone up by two points.]
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="103">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7bdb0" />
+    </children>
   </item>
-  <item nodeId="node-0x1818b40">
-    <command xml:space="preserve">take knife</command>
-    <result xml:space="preserve">You pick up the knife and put it in the front pocket of your backpack.
+  <item nodeId="node-0x6c7bdb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. You can see your camp is to the south.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
     <children>
-      <child nodeId="node-0x1818b90" />
+      <child nodeId="node-0x6c7be00" />
     </children>
   </item>
-  <item nodeId="node-0x1818b90">
-    <command xml:space="preserve">fill knife</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x1818be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1818be0">
-    <command xml:space="preserve">fill knife</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-  </item>
-  <item nodeId="node-0x1818c50">
-    <command xml:space="preserve">cut tent</command>
-    <result xml:space="preserve">Cutting that up would achieve little.
+  <item nodeId="node-0x6c7be00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="1">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7be50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7be50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest.
+ 
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7bec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7bec0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Southern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. You can see your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7bfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7bfb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Camp
+The camp is set up in a small clearing between four huge canopy trees for shade and shelter from rain. You notice there is a fire pit in the middle that you must have build before, but the fire has burnt out leaving a mound of ash surrounded by charred rocks.
+
+You can see a tent, a knife, a coil of rope, and a bottle (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c000" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c000">
+    <command xml:space="preserve">take bottle</command>
+    <result xml:space="preserve">You pick up the empty bottle and put it into your backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c050" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c050">
+    <command xml:space="preserve">x bottle</command>
+    <result xml:space="preserve">An empty plastic bottle. You could fill it up with clean water if you have the need for something to drink.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c0c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Southern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. You can see your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c130" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c130">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest.
+ 
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c260" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c260">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Eastern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7bf50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7bf50">
+    <command xml:space="preserve">fill bottle</command>
+    <result xml:space="preserve">You dip your bottle into the stream and fill it with sparkling pure water.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c2d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You wouldn&apos;t want to get lost. Better stay on this side of the river for now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c340" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c340">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c3b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You journey deeper into the forest.
+ 
+Northern Forest
+You walk out of the trees and into a small clearing. All you can see in every direction is the forest. You hear the sound of small animals scurrying about around you, cracking the leaves as they run. A narrow beam of light shines through a gap in the forest canopy, illuminating a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c420" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c420">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Base
+The trees lead up to a stone staircase lined by statues of dragons and warriors. The staircase leads up to the top of the mountain.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c490" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c490">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Mountain Summit Shrine
+You walk up the long winding mountain path until you reach the summit. There is a shrine here for one of the island&apos;s gods. A man in shiny golden robes and a silver helmet is examining a massive golden door guarded by two black statues. The air coming from the door feels magical, almost like a divine being is on the other side.
+
+He is muttering to himself, &quot;Stupid door, why won&apos;t you open? The Shaman said to rub the statues so I rubbed the statues and nothing happened. This stupid door hasn&apos;t been opened for hundreds of years! How are we supposed to commence all of our ceremonial rituals if we can&apos;t get into the shrine room!&quot; 
+
+You can see a Chief here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c500" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c500">
+    <command xml:space="preserve">talk to chief</command>
+    <result xml:space="preserve">The man hears your footsteps and turns around red and irritated.
+
+&quot;I am Chief Radzen, leader of the Geracian tribe and this is my land. Who are you and what is your purpose for coming to me?&quot; he says.
+
+You explain your situation to the Chief while he nods understandingly.
+
+&quot;Mmmhmmm… I see… Well, you need to find a way to get home dontand&apos;t you? We could help you, but first you need to prove you are worthy of our assistance and that you aren&apos;t just someone from an enemy tribe trying to invade us. Hmmmm… there is a magical beast on the other side of the river to the east of our village. It has been terrorizing my people, eating our livestock and trampling our crops. Find the beast and kill him. Then come talk to me. I&apos;ll be in my hut; thinking of ways to open that stupid door…re&quot;
+
+
+The Chief then walks briskly past you and dissapears down the mountain path.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c1a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Mountain Base
+The trees lead up to a stone staircase lined by statues of dragons and warriors. The staircase leads up to the top of the mountain.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c1f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Northern Forest
+You walk out of the trees and into a small clearing. All you can see in every direction is the forest. You hear the sound of small animals scurrying about around you, cracking the leaves as they run. A narrow beam of light shines through a gap in the forest canopy, illuminating a large rock here with strange engravings on it.
+
+You can see a strange rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c6f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c760" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c760">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Eastern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c7d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lair
+You wade through the cold river water and reach a small clearing enclosed by towering walls of stone on every side. The shadow fang lays curled up against the stone. It looks weak and tired, like it could use some help.Its lair is littered with skulls of the mystical beast&apos;s prey and smells of… flowers? Well that isn&apos;t very intimidating is it?
+
+You can see a shadow fang here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c840" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c840">
+    <command xml:space="preserve">give water to shadow fang</command>
+    <result xml:space="preserve">(first taking the water)
+You give the shadow fang some of your water and it gradually starts to feel better. It is extremely grateful for your act of kindness and decides to follow you around, accepting you as its master.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c8b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Eastern Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. The shadow fang follows you closely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c920" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c920">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Central Forest
+All you can see in every direction is the forest. The huge trees blocking out the light from the sun, the brush and bushes covering the forest floor, and the sound of small animals scurrying about around you, cracking the leaves as they run. The shadow fang follows you closely. There is a mountain to the north and your camp is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c990" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c990">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Western Forest
+A section of the forest lacking trees and foliage. There is a village to your west, the openning back to the forest is to the east, and both the north and south exits look too densely populated with trees to navigate in. The shadow fang follows you closely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7ca00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7ca00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic. The shadow fang follows you closely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7ca70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7ca70">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Chief&apos;s Hut
+The Chief&apos;s hut is warm and smells like scented candles. The Chief&apos;s hunting and war trophies decorate the room and give a feeling of pride and victory to the room. The shadow fang comfortably curls up into a ball on the floor.
+
+You can see a Chief and a Young Boy here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7cae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7cae0">
+    <command xml:space="preserve">talk to chief</command>
+    <result xml:space="preserve">&quot;Get that demon out of here! I must go see the Shaman.&quot; The Chief rushes out of his hut and breaks across the village.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7cb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7cb50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Village
+A small village in the middle of the forest. The small huts that make up the village are aligned in a circle around the center of the village. There is a slightly larger and nicer hut to the south, most likely belonging to their leader, and a strange voodoo-like hut to the north, seemingly belonging to a shaman or mystic. The shadow fang follows you closely.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c570" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c570">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Shaman&apos;s Hut
+The hut of the island Shaman. The walls are lined with strange, voodoo like objects and the air smells of rotting fruit and dead weasels, whatever that smells like. You walk into the Shaman&apos;s hut with the Shadow fang following closely behind you. The shadow fang lays down on the floor across your feet and puts its head down on its paws.
+
+You can see a Chief and a Shaman here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c5e0">
+    <command xml:space="preserve">talk to chief</command>
+    <result xml:space="preserve">The Chief turns around and is startled by the beast.
+
+&quot;Why would you bring that thing here! It has been terrorizing my people for hundreds of years!&quot; he shouts, &quot;BEGONE DEMON!!!&quot;
+
+&quot;Don&apos;t worry,&quot; you reply. &quot;He&apos;s not going to hurt anyone. He was thirsty and I helped him. He was only trying to get food to survive when he destroyed your crops.&quot;
+
+&quot;I see. Well in that case, you have solved the greatest problem of my people. You shall be known for all time as the Bwana Wa Mnyama Kivuli, Master of the Shadow Beast. Your name shall be worshipped for centuries to come.
+
+Now that you have proved yourself you must make your decision. Do you still wish to return home?&quot;
+</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c7c650" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c7c650">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">&quot;All right. The decision has been made.&quot;
+
+The Chief speaks to the Shaman in a language you cannot understand and the Shaman nods. The Shaman walks over and puts his hand on your forehead.
+
+&quot;Kutuma mtu huyu ambayo amekuja. Tafadhali bwana Tryn basi hii kufanyika. Kwa nguvu imewekeza katika mimi na miungu ya nchi hii. Mimi jitihada kuaga kwako na kurudi kwako nyumbani, kwa mkono wangu kichawi.&quot;You close your eyes and say, &quot;I wish I was back home!&quot; he chants.
+
+You feel a strong whipping wind swirl around you and the shadow fang backs away. You feel yourself lifting into the air and slowly losing consciousness before you black out completely.
+
+When you shake off the dizziness and open your eyes, you are laying on your bed at home staring up at the ceiling. All your memories are coming back now. You remember that your name is James Palazo, you are 24 years old, you live in Boston Massachusetts, and seeing as the time is 4:00 PM, you&apos;re late for the Red Sox game!
+
+
+
+    *** You have won ***
+
+
+In that game you scored 14 out of a possible 53, in 34 turns, earning you the rank of Student Adventurer.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT, or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="108">YES</temporary>
   </item>
 </Skein>

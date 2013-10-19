@@ -1,0 +1,179 @@
+	•	How well does the game accomplish what you set out to do?
+
+My game accomplished what I set out to do very well. The only thing I couldn't get to work was my original idea of having the player solve a tile puzzle (pressing colored tiles in a specific order) to open the secret door.
+
+
+
+
+
+
+
+	•	Discuss a time when you got stuck, and how you got unstuck.
+
+I got stuck when I was trying to combine 5 items to build the boat you need to get off of the island (in two of the four victorious endings). To solve this problem, I created a scenery item in the room where you build the boat called "shazam". I then added "say the magic word 'shazam' when you have collected all the items for building the boat." into the description of the blueprints. 
+
+I then made a new action called speaking:
+
+	understand "say [something]" as speaking.
+	speaking is an action applying to one thing.
+
+Then I coded:
+
+	Instead of speaking shazam:
+		remove (the materials for building the boat) from play;
+		now the boat is in the Camp.
+
+This made "shazam" a magic word for building the boat. Speaking "shazam" only works when you have all the materials for the boat.
+
+
+
+
+
+
+
+	•	Describe each of the required three puzzles in your game and how to solve each puzzle.
+
+puzzle 1 (opening hidden door) - 
+
+In the Mountain Summit Shrine, you talk to the chief. He is ranting about not being able to open the golden door on the north end of the room. If you examine the statues next to the door, it says that "their images flicker as if they aren't actually there". This is a hint that the golden door isn't the actual door to the Hidden Shrine Room. The real door is to the east, but it is hidden. You must examine the wall and then the "dark stone" that is different from all the other stones, and then the wall opens up revealing the hidden room.
+
+	solution:
+
+	1. talk to chief in Mountain Summit Shrine
+	2. examine wall
+	3. examine stone
+
+
+puzzle 2 (open magical box) - 
+
+In the Northern Forest, there is a strange rock. When examined, the strange rock turns into a magical box. If you examine the magical box, it says that it has engravings on it that you can't understand. To read the engravings, you first need to find your way into the Hidden Shrine Room to talk to the golden statue, who drops the magic eyeglass. With the eyeglass in your possession, you can read the engravings, a riddle that is basically telling you to examine the stars. When examining the stars, it spells out "You already possess the key to success" meaning that the box has already been opened while you were trying to solve the riddle! 
+
+	solution:
+
+	1-3. steps for opening hidden door
+	4. talk to the golden statue
+	5. take magic eyeglass
+	6. go to Northern Forest
+	7. examine strange rock
+	8. examine magical box
+	9. examine sky
+	10. examine magical box
+
+
+puzzle 3 (build boat) - 
+
+To build the boat, you need to have opened the magical box so that you can take the blueprints from it. When you examine the blueprints, it tells you the materials you need to build a raft to get off of the island and of the magic word "shazam" you must speak once you collect everything to assemble the raft. You must go around collecting all of the materials. The final item, the sail material, is obtained by using the knife to cut the fabric from the tent. There is a hint for this in the tent's description: "The tent is made of a material that is strong, yet thin." Once you collect the materials, say "shazam" while in the camp and the raft will be assembled.
+
+	solution:
+
+	1-10. steps for opening magical box
+	11. take blueprints
+	12. examine blueprints
+	13. take branches
+	14. go to Camp
+	15. take knife, tent, and rope
+	16. cut tent
+	17. say shazam in Camp
+
+
+puzzle 4 (tame shadow fang) - 
+
+There are two possible routes to follow when it comes to the shadow fang. If you choose to tame the shadow fang, you help it by giving it water when it is dying of thirst and it follows you around. To tame the shadow fang, you must get the bottle in the Camp and then travel to the Eastern Forest to fill the bottle in the river. Then, since the Lair area is not unlocked yet, you must go talk to the chief in the Mountain Summit Shrine before returning to the Eastern Forest and advancing over the river to the Lair. Once you're there you just give the water to the shadow fang and he is instantly grateful and tamed.
+
+	solution:
+
+	1. take bottle
+	2. fill bottle in Eastern Forest
+	3. talk to chief in Mountain Summit Shrine
+	4. go to Lair
+	5. give water to shadow fang
+
+
+puzzle 5 (kill shadow fang) - 
+
+In this path of killing the shadow fang, you must get the knife from the Camp. Then, since the Lair area is not unlocked yet, you must go talk to the chief in the Mountain Summit Shrine before returning to the Eastern Forest and advancing over the river to the Lair. In the Lair, you attack the shadow fang to kill him. Be careful though, if you don't have the knife you will be eaten by the large beast.
+
+	solution:
+
+	1. take knife
+	2. talk to chief in Mountain Summit Shrine
+	3. go to Lair
+	4. kill shadow fang
+
+
+
+
+
+
+
+
+
+
+
+	•	Discuss the gameplay mechanics in your game and how they improve the user's experience.
+
+In my game, I made sure to make multiple endings, gameplay paths, and possible deaths so that the player can have many different options to choose from. I made one easy path with four possible endings to finish my game, one hard path with 2 possible endings, and one really hard path with 2 possible endings that reward the most points. On top of that, I made multiple NPCs that move around the map as well as have different responses based on your path and how far you are. This will allow the player to be sucked further into the fantastical island and story of the game. Finally, I also added a scoring/ranking system to engage the user and cause them to attempt the game multiple times to get a better score/rank.
+
+
+
+
+
+	•	Discuss the beta testing process: Who tested your game? 
+
+Cameron and Austin beta tested my game.
+
+
+
+
+
+
+
+	•	How did their feedback affect your game? 
+
+They helped me find a ton of bugs in my game. Austin pointed out some really small things that I would've missed and left unfixed if he hadn't spotted it: a misspelling of "chief" in the middle of a paragraph of writing and that the "C" in Camp wasn't capitalized. Together, they found about 25 minor fixes and 5 major fixes that would have been a big problem in my game if left unfixed.
+
+
+
+
+
+
+	•	Whose game did you beta test? 
+
+I beta tested Cameron and Austin's games.
+
+
+
+
+
+
+	•	What feedback were you able to give?
+
+I was able to point out simple fixes they could do to make their games a lot better, such as coding the game accept "laces" as "shoelaces" since most players would probably write "laces". If the response for "examine laces" was "you do not see any laces here", the player would give up on finding the laces and just assume that the programmer forgot to add laces to the shoes. I also spotted a glitch in one of their games where if you went north in a certain room, you would walk through the wall and into the final room, causing the game to end in victory. 
+
+I suggested coding:
+
+	instead of going north in the hall:
+		say "(whatever error message he wanted to appear)";
+		stop the action.
+
+I hope that was helpful for when he did his beta fixes. It was a really interesting game to play.
+
+
+
+
+
+
+
+
+	•	What are you most proud of?
+
+I am most proud of the Chief in my game. All of the conditions for his responses took a long time to code correctly so that the glitches were eliminated. It was really great to see that my hard work payed off and I got all of his movements and responses to work as they should.
+
+
+
+
+	•	What would you do differently next time?
+
+Next time, if I had enough time, I would make it so that you could open the golden door. It would just lead you into a heaven-like spirit world where you would have to navigate through the fog and clouds to reach the statue of the island's god, who you would have to talk to so that you would be teleported back home.
+
+
