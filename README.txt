@@ -1,4 +1,4 @@
-Requires Zoom 1.1.5 to read .zblorb game file
+Requires Gargoyle (or equivalent) to read .zblorb game file
 
 Shortest route for solving the game:
 
