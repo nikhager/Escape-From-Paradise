@@ -1,3 +1,5 @@
+Requires Zoom 1.1.5 to read .zblorb game file
+
 Shortest route for solving the game:
 
 1. take bottle
